@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00F8F31D-2E39-495D-BE11-C31EBF0F1B07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FA_PocIText", "src\FA_PocIText.API\FA_PocIText.csproj", "{02717A0F-A7E9-43B8-86D4-8A925D1A2FE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02717A0F-A7E9-43B8-86D4-8A925D1A2FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02717A0F-A7E9-43B8-86D4-8A925D1A2FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02717A0F-A7E9-43B8-86D4-8A925D1A2FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02717A0F-A7E9-43B8-86D4-8A925D1A2FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02717A0F-A7E9-43B8-86D4-8A925D1A2FE5} = {00F8F31D-2E39-495D-BE11-C31EBF0F1B07}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4419AB27-E741-4504-83CD-F0E490933EAB}
+	EndGlobalSection
+EndGlobal
