@@ -11,13 +11,14 @@
     <PackageReference Include="Handlebars.Net" Version="2.1.4" />
     <PackageReference Include="itext7" Version="8.0.2" />
     <PackageReference Include="itext7.bouncy-castle-adapter" Version="8.0.2" />
+    <PackageReference Include="itext7.pdfcalligraph" Version="4.0.2" />
     <PackageReference Include="itext7.pdfhtml" Version="5.0.2" />
   </ItemGroup>
   
-  <!-- <ItemGroup>
-  <None Update="Templates">
-    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-  </None> 
-  </ItemGroup> -->
+<!-- <ItemGroup>
+   <Content Include="Fonts\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+   </Content>
+</ItemGroup>  -->
 
 </Project>
