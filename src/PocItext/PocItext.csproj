@@ -15,10 +15,10 @@
     <PackageReference Include="itext7.pdfhtml" Version="5.0.2" />
   </ItemGroup>
   
-<!-- <ItemGroup>
+<ItemGroup>
    <Content Include="Fonts\*.*">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
    </Content>
-</ItemGroup>  -->
+</ItemGroup> 
 
 </Project>
