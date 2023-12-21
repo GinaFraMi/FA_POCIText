@@ -25,7 +25,8 @@ sealed class Endpoint : Endpoint<Request>
         ThrowIfAnyErrors();
 
         CreatePDF pdf = new CreatePDF();
-        var pdfBytes = pdf.GeneratePDF(templatePath, new InformationCertification
+        string htmlContent = File.ReadAllText(templatePath);
+        var pdfBytes = pdf.GeneratePDF(htmlContent, new InformationCertification
         {
             certificadeCode = req.certificateCode,
             points = req.certificatePoints,
