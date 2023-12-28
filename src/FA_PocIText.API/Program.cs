@@ -1,12 +1,15 @@
 using FastEndpoints;
-using FastEndpoints.Swagger; //add this
+using FastEndpoints.Swagger;
+using Common;
+
+DotEnv.Load();
 
 var bld = WebApplication.CreateBuilder();
 bld.Services
    .AddFastEndpoints()
-   .SwaggerDocument(); //define a swagger document
+   .SwaggerDocument();
 
 var app = bld.Build();
 app.UseFastEndpoints()
-   .UseSwaggerGen(); //add this
+   .UseSwaggerGen();
 app.Run();

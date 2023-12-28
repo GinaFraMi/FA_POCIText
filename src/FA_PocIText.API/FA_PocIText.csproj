@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PocItext\PocItext.csproj" />
+    <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
 
 </Project>

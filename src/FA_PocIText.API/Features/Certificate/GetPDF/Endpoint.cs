@@ -14,8 +14,8 @@ sealed class Endpoint : Endpoint<Request>
 
     public override Task HandleAsync(Request req, CancellationToken ct)
     {
-        string templatesDirectory = "Templates";
-        string fileName = "template.html";
+        string templatesDirectory = Environment.GetEnvironmentVariable("TEMPLATE_FOLDER");
+        string fileName = Environment.GetEnvironmentVariable("CERTIFICATE_TEMPLATE");
         string templatePath = Path.Combine(templatesDirectory, fileName);
 
         if (!File.Exists(templatePath))

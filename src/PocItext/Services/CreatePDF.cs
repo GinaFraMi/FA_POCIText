@@ -6,13 +6,13 @@ using iText.IO.Font;
 
 namespace PocItext.Services
 {
-  public class CreatePDF
+  public class CreatePDF : ICreatePDF
    {
 
     private FontProvider CreateFonts()
     {
 
-      string directory = "Fonts";
+      string directory = Environment.GetEnvironmentVariable("FONTS_FOLDER")??"Fonts";
       var executionPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
       var pathString = Path.Combine(executionPath!, directory);
       var fontPaths = Directory.GetFiles(pathString, "*.ttf");
